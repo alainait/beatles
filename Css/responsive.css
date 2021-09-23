@@ -1,0 +1,234 @@
+/* // `xs` returns only a ruleset and no media query
+// ... { ... } */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* header part responsive code start */
+  .welcome p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  /* header part responsive code end */
+
+  /* nav part responsive code start */
+
+  .navbar-collapse .navbar-nav .nav-item .nav-link {
+    border-bottom: 1px solid gray;
+  }
+
+  /* nav part responsive code end */
+
+  /* banner part responsive code start */
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 30px;
+  }
+  /* banner part responsive code end */
+
+  .about-bor img {
+    margin-left: 34.2%;
+  }
+
+  /* our service part responsive code start */
+  .our-service img {
+    margin-left: 29.6%;
+  }
+
+  .ser-main {
+    margin-top: 60px;
+  }
+
+  /* our service part responsive code end */
+
+  .prot-title img {
+    margin-left: 25.5%;
+  }
+
+  .our-team img {
+    margin-left: 34.6%;
+  }
+
+  .testi-bor img {
+    margin-left: 29.8%;
+  }
+
+  /* Portfolio part responsive code start */
+  .ex-s-img {
+    margin-top: 20px;
+  }
+
+  /* Portfolio part responsive code end */
+
+  /* Testimonial part responsive code start */
+  .testimonial-main {
+    margin-top: 20px;
+  }
+
+  .triangle {
+    margin-left: 45.5%;
+  }
+
+  /* Testimonial part responsive code end */
+
+  /* footer part responsive code start */
+  .logo-with-about {
+    text-align: center;
+  }
+
+  .contact-us {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .mob-num-1 {
+    left: 35%;
+  }
+
+  .mob-num-2 {
+    left: 35%;
+  }
+
+  .mob-num i {
+    left: 16%;
+  }
+
+  .imp-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .flickr-photo-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* footer part responsive code end */
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .welcome p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .icon {
+    margin-right: 28%;
+    margin-bottom: 2%;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item .nav-link {
+    border-bottom: 1px solid gray;
+  }
+
+  .ser-main {
+    margin-top: 50px;
+  }
+
+  .ser-icon-main {
+    left: 42.5%;
+  }
+
+  .ex-s-img {
+    margin-top: 20px;
+  }
+
+  .triangle {
+    margin-left: 44.5%;
+  }
+
+  .logo-with-about {
+    text-align: center;
+  }
+
+  .contact-us {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .mob-num-1 {
+    left: 40%;
+  }
+
+  .mob-num-2 {
+    left: 40%;
+  }
+
+  .mob-num i {
+    left: 30%;
+  }
+
+  .imp-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .flickr-photo-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-bor img {
+    margin-left: 40.9%;
+  }
+
+  .our-service img {
+    margin-left: 38.4%;
+  }
+
+  .testimonial-main {
+    margin-left: 35.9%;
+  }
+
+  .prot-title img {
+    margin-left: 35.9%;
+  }
+
+  .our-team img {
+    margin-left: 41%;
+  }
+
+  .testi-bor img {
+    margin-left: 38.8%;
+  }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-bor img {
+    margin-left: 43.2%;
+  }
+
+  .our-service img {
+    margin-left: 41.4%;
+  }
+
+  .prot-title img {
+    margin-left: 39.5%;
+  }
+
+  .our-team img {
+    margin-left: 43.4%;
+  }
+
+  .testi-bor img {
+    margin-left: 41.5%;
+  }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) (max-width: 1399px) {
+}

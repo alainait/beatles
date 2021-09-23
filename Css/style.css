@@ -1,0 +1,546 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.raisul {
+  clear: both;
+}
+
+/* header part css code start */
+
+.welcome-icon {
+  background-color: #0872b9;
+  padding-top: 10px;
+}
+
+.welcome p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.icon {
+  float: right;
+}
+
+.icon ul li {
+  float: left;
+  padding: 0px 15px;
+}
+
+.icon ul li a {
+  color: white;
+  transition: all linear 0.3s;
+}
+
+.icon ul li a:hover {
+  color: black;
+  transition: all linear 0.3s;
+}
+
+/* header part css code end */
+
+/* navbar part css code start */
+.navbar-collapse ul li {
+  padding: 0 12px;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: #353535;
+}
+
+.navbar-collapse .navbar-nav .nav-link.active {
+  color: #0872b9;
+}
+/* navbar part css code end */
+
+/* banner part css code start */
+#banner {
+  background: url(../Images/Beatles-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  padding: 85px;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.banner-content {
+  text-align: right;
+  color: white;
+}
+
+.banner-content h4 {
+  font-family: "Oswald", sans-serif;
+  font: 30px;
+  font-weight: 400;
+}
+
+.banner-content h1 {
+  font-family: "Oswald", sans-serif;
+  font: 40px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.banner-content p {
+  font-family: "Open Sans", sans-serif;
+  font: 13px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.banner-content a {
+  font-family: "Oswald", sans-serif;
+  font: 16px;
+  font-weight: 400;
+  border: 1px solid white;
+  padding: 4px 15px;
+  margin-left: 15px;
+  color: white;
+  transition: all linear 0.3s;
+}
+
+.banner-content a:hover {
+  background-color: #0872b9;
+  transition: all linear 0.3s;
+  border: 1px solid #0872b9;
+}
+
+/* banner part css code end */
+
+/* about part css code start */
+.title-main {
+  margin-top: 50px;
+  /* position: relative; */
+  margin-bottom: 50px;
+}
+
+.title-main h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+
+/* .title-main img {
+  margin-left: 45.7%;
+  margin-bottom: 22%;
+} */
+
+.title-main h4:after {
+  position: absolute;
+  content: "";
+  bottom: -6%;
+  left: 45.8%;
+  height: 2px;
+  width: 47px;
+  background-color: #0872b9;
+}
+
+.title-main h4:before {
+  position: absolute;
+  content: "";
+  bottom: -6%;
+  left: 50.3%;
+  height: 2px;
+  width: 6px;
+  background-color: #0872b9;
+}
+
+.title-main h4 span:after {
+  position: absolute;
+  content: "";
+  bottom: -6%;
+  left: 51.2%;
+  height: 2px;
+  width: 4px;
+  background-color: #0872b9;
+}
+
+.title-main h4 span:before {
+  position: absolute;
+  content: "";
+  bottom: -6%;
+  left: 51.8%;
+  height: 2px;
+  width: 2px;
+  background-color: #0872b9;
+}
+
+.about-con p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  text-align: justify;
+}
+/* about part css code end */
+
+/* our service part css code start */
+
+.ser-main {
+  position: relative;
+  margin-top: 30px;
+  transition: all linear 0.3s;
+}
+
+.ser-icon-main {
+  height: 80px;
+  width: 80px;
+  background-color: #f1f1f1;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -22%;
+  left: 38%;
+}
+
+.ser-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #f1f1f1;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ser-con {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.ser-con h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.ser-con p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.ser-main:hover .ser-icon-main {
+  background-color: #0872b9;
+  transition: all linear 0.3s;
+}
+
+.ser-main:hover .ser-icon {
+  background-color: #0872b9;
+  transition: all linear 0.3s;
+}
+
+.ser-main:hover .ser-con {
+  box-shadow: 2px 2px 10px gray;
+  transition: all linear 0.3s;
+}
+
+/* our service part css code end */
+
+/* our portfolio part css code start */
+
+.small-img,
+.big-img {
+  position: relative;
+}
+
+.img-oly {
+  background-color: rgba(0, 0, 0, 0.507);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+
+.img-oly a i {
+  font-size: 24px;
+  color: white;
+  background-color: #5bc5f4;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.big-img {
+  margin-top: 20px;
+}
+
+.big-img:hover .img-oly {
+  transform: scale(1);
+  transition: all linear 0.3s;
+}
+
+.small-img:hover .img-oly {
+  transform: scale(1);
+  transition: all linear 0.3s;
+}
+
+/* our portfolio part css code end */
+
+/* our team part css code strat */
+.team-name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.team-name h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.team-name p {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.team-img {
+  position: relative;
+  transition: all linear 0.3s;
+}
+
+.team-img-oly {
+  background-color: rgba(0, 0, 0, 0.507);
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all ease-in-out 0.6s;
+}
+
+.team-img-oly ul li {
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: 30px;
+  transition: all linear 0.3s;
+}
+
+.team-img-oly ul li a {
+  color: white;
+  font-size: 24px;
+}
+
+.team-img-oly ul li:hover {
+  background-color: #5bc5f4;
+  border: 1px solid #5bc5f4;
+  transition: all linear 0.3s;
+}
+
+.team-img:hover .team-img-oly {
+  transform: scale(1);
+  transition: all ease-in-out 0.6s;
+  width: 30%;
+}
+
+.team-img:hover {
+  box-shadow: 1px 1px 5px gray;
+  transition: all linear 0.3s;
+}
+
+/* our team part css code end */
+
+/* Testimonial part css code strat */
+
+.testimonial-main {
+  text-align: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #f1f1f1;
+  margin-left: 47.5%;
+  margin-top: 2%;
+}
+
+.testimonial-con {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.testimonial-con h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.testimonial-con a {
+  color: #5bc5f4;
+}
+
+.testimonial-con p {
+  font-family: "Oswald", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.testimonial-con span {
+  font-family: "Oswald", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* Testimonial part css code end */
+
+/* footer part css code start */
+
+footer {
+  background-color: #353535;
+  padding-top: 20px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+.logo-with-about p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+}
+
+.contact-us h5 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mob-num {
+  position: relative;
+}
+
+.mob-num i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: #5bc5f4;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.mob-num-1 {
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.mob-num-2 {
+  position: absolute;
+  top: 75%;
+  left: 18%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.imp-link h5 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.imp-link-con p a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.imp-link-con p a:hover {
+  color: #5bc5f4;
+}
+
+.flickr-photo-title h5 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.left-right {
+  margin: 0 35px;
+}
+
+#copy-right {
+  background-color: #555555;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#copy-right p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#copy-right p span {
+  color: #5bc5f4;
+}
+
+/* footer part css code end */
