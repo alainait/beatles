@@ -82,7 +82,7 @@ a {
 }
 
 .banner-overlay {
-  padding: 85px;
+  padding: 85px 0;
   background-color: rgba(0, 0, 0, 0.514);
 }
 
@@ -522,8 +522,8 @@ footer {
   font-weight: 500;
 }
 
-.left-right {
-  margin: 0 35px;
+.fluckr-img {
+  margin-top: 20px;
 }
 
 #copy-right {
